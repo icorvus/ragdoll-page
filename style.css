@@ -144,3 +144,43 @@ ul {
   font-weight: 500;
   margin: 0 0 97px 500px;
 }
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 15%;
+  background-color: #3882F6;
+  padding: 50px 150px;
+  border-radius: 8px;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-head {
+  font-size: 24px;
+  margin: 0px;
+  color: #ffffff
+}
+
+.cta-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0px;
+}
+
+.cta-button {
+  border: 2px solid #ffffff;
+  padding: 4px 30px;
+  background-color: #3882F6;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.cta-button, .hero-button {
+  font-weight: 700;
+}

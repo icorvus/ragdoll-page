@@ -50,6 +50,7 @@ ul {
 .welcome {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
   margin: 100px 15%;
   gap: 30px;
 }
@@ -57,10 +58,15 @@ ul {
 .left {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: flex-end;
   flex-wrap: wrap;
   gap: 10px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.right {
+  border-radius: 16px;
 }
 
 .hero-main {

@@ -118,6 +118,10 @@ ul {
   border-radius: 16px;
 }
 
+.rag-img {
+  border-radius: 11px;
+}
+
 .item {
   display: flex;
   flex-direction: column;
